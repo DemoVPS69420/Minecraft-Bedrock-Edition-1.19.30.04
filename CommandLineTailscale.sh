@@ -1,0 +1,2 @@
+#!/bin/sh
+clear && apt update && apt upgrade -y && mkdir TailscaleServer && cd TailscaleServer && wget https://pkgs.tailscale.com/stable/tailscale_1.30.2_amd64.tgz && tar xvf tailscale_1.30.2_amd64.tgz && clear &&  tailscaled --state=tailscaled.state
